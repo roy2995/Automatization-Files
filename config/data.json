@@ -1,0 +1,22 @@
+{
+    "const": {
+        "name": "John Doe"
+    },
+
+    "file_1": {
+        "title": "72_Multimoney entregable 5_SA Retiro en ATM_Validar la selección de un retiro en ATM._Reglas de negocio",
+        "paso_prueba": {
+            "paso_1": "Seleccionar en la pantalla inicio el botón (Tarjeta).",
+            "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta."
+        }
+    },
+
+    "file_2": {
+        "title": "73_Multimoney entregable 5_SA Retiro en ATM_Validar el botón de (Cerrar) con icono de X._Botones y controles",
+        "paso_prueba": {
+            "paso_1": "Seleccionar en la pantalla inicio el botón (Tarjeta).",
+            "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+            "paso_3": "Presionar el icono (X) de cerrar."
+        }
+    }
+}
