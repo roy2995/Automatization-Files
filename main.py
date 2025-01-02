@@ -6,6 +6,11 @@ def main():
     # Cargar los datos desde el JSON
     data = load_json("config/data.json")
 
+    # Crear la carpeta "Files" si no existe
+    output_dir = "Files"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
     # Iterar sobre las claves del JSON para agregar dinámicamente las secciones file_*
     for key, value in data.items():
         if key.startswith('file_'):
@@ -25,7 +30,7 @@ def main():
 
             # Limpiar el nombre del archivo
             clean_title = clean_filename(f"FormatoDeEvidencia_CP_{value['id']}_{value['platform']}")
-            output_filename = f"{clean_title}.docx"
+            output_filename = os.path.join(output_dir, f"{clean_title}.docx")
 
             # Guardar el archivo con el nombre correspondiente
             file.save(output_filename)
