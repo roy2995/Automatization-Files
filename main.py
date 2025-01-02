@@ -13,7 +13,8 @@ def main():
             context = {
                 'name': data['const']['name'],
                 'title': value['title'],
-                'paso_prueba': value['paso_prueba']
+                # Convertir el diccionario de pasos en una lista para usar en la plantilla
+                'paso_prueba': [step for step in value['paso_prueba'].values()]
             }
 
             # Cargar la plantilla de Word
@@ -23,7 +24,7 @@ def main():
             file.render(context)
 
             # Limpiar el nombre del archivo
-            clean_title = clean_filename(value['title'])
+            clean_title = clean_filename(f"FormatoDeEvidencia_CP_{value['id']}_{value['platform']}")
             output_filename = f"{clean_title}.docx"
 
             # Guardar el archivo con el nombre correspondiente
