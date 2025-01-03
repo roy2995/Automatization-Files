@@ -13,14 +13,13 @@ Funciones:
 
 import openpyxl
 from openpyxl.workbook import Workbook
+import xlwings as xw
 
 
 class Funexcel():
     """
     Esta clase proporciona métodos para interactuar con archivos Excel utilizando la biblioteca openpyxl.
     """
-    def __init__(self, driver):
-        self.driver = driver
 
     def get_row_count(self, path, sheetName):
         """
@@ -57,6 +56,22 @@ class Funexcel():
         Workbook = openpyxl.load_workbook(path)
         sheet = Workbook[sheetName]
         return sheet.cell(row=rownum, column=columna).value
+    
+    def read_data2(self, path, sheetName, rownum, columna):
+        """
+        Lee datos de una celda en una hoja de Excel, evaluando fórmulas.
+        :param path: Ruta del archivo de Excel
+        :param sheet_name: Nombre de la hoja de Excel
+        :param rownum: Número de fila
+        :param columna: Número de columna
+        :return: El valor de la celda especificada
+        """
+        # Abrir el libro con xlwings
+        with xw.App(visible=False) as app:
+            wb = app.books.open(path)
+            sheet = wb.sheets[sheetName]
+            # Obtener el valor de la celda, evaluando fórmulas
+            return sheet.cells(rownum, columna).value
 
     def write_data(self, file, path, sheetName, rownum, columna, data):
         """
