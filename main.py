@@ -16,6 +16,7 @@ def main():
         os.makedirs(output_folder)
     
     fe = Funexcel()
+    #Ruta donde se encuentra el excel
     ruta = "C:\\Users\\JuanNav\\OneDrive - Money Free Flex\\Documentos\\Money Free Flex\\Pruebas\\entregable 6\\entregable6_v2.xlsx"
     fila_min = 12
     sheetName = "MP"
