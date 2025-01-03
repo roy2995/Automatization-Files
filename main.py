@@ -6,10 +6,17 @@ from src.utils import load_json, clean_filename, separar_pasos
 
 def main():
     # Cargar los datos desde el JSON
-    data = load_json("config/data.json")
+    #data = load_json("config/data.json")
+    
+    #Especificar la ruta de la carpeta donde se guardarán los archivos
+    output_folder = "C:\\Users\\JuanNav\\OneDrive - Money Free Flex\\Documentos\\Money Free Flex\\Pruebas\\entregable 6\\android"
+
+    # Crear la carpeta si no existe
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
     
     fe = Funexcel()
-    ruta = "C:\\Users\\JuanNav\\Downloads\\entregable5_v2.xlsx"
+    ruta = "C:\\Users\\JuanNav\\OneDrive - Money Free Flex\\Documentos\\Money Free Flex\\Pruebas\\entregable 6\\entregable6_v2.xlsx"
     fila_min = 12
     sheetName = "MP"
     fila_max = fe.get_row_count(ruta, sheetName)
@@ -23,7 +30,7 @@ def main():
 
     # Iterar sobre las claves del JSON para agregar dinámicamente las secciones file_*
     
-    for fcaso in range(41, 44):
+    for fcaso in range(12, 36):
         id = fe.read_data(ruta, sheetName, fcaso, col_id)
         plat = fe.read_data(ruta, sheetName, fcaso, col_plat)
         modulo = fe.read_data(ruta, sheetName, fcaso, col_modulo)
@@ -42,10 +49,10 @@ def main():
         lista_pasos = separar_pasos(pasos)
         
         context = {
-                'name': "juanp",
+                'name': "por confirmar",
                 'title': title,
-                # Convertir el diccionario de pasos en una lista para usar en la plantilla
-                'paso_prueba': lista_pasos
+                'caso': nombre_caso,
+                'paso_prueba': pasos
             }
         
         # Cargar la plantilla de Word
@@ -56,13 +63,13 @@ def main():
         
         # Limpiar el nombre del archivo
         clean_title = clean_filename(f"FormatoDeEvidencia_CP_{id_t}_{plat.lower()}")
-        output_filename = f"{clean_title}.docx"
+        output_filename = os.path.join(output_folder,f"{clean_title}.docx")
         
         # Guardar el archivo con el nombre correspondiente
         file.save(output_filename)
 
         print(f"Archivo guardado como: {output_filename}")
-        print(lista_pasos)
+        #print(lista_pasos)
 
 if __name__ == "__main__":
     main()
