@@ -1,26 +1,320 @@
 {
     "const": {
-        "name": "John Doe"
+        "name": "Roderick Esquivel"
     },
-
     "file_1": {
-        "id": 72,
-        "platform": "android",
-        "title": "72_Multimoney entregable 5_SA Retiro en ATM_Validar la selección de un retiro en ATM._Reglas de negocio",
-        "paso_prueba": {
-            "paso_1": "Seleccionar en la pantalla inicio el botón (Tarjeta).",
-            "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta."
-        }
-    },
-
-    "file_2": {
-        "id": 73,
-        "platform": "android",
-        "title": "73_Multimoney entregable 5_SA Retiro en ATM_Validar el botón de (Cerrar) con icono de X._Botones y controles",
-        "paso_prueba": {
-            "paso_1": "Seleccionar en la pantalla inicio el botón (Tarjeta).",
-            "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
-            "paso_3": "Presionar el icono (X) de cerrar."
-        }
+    "id": 213,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 213_Multimoney entregable 5_SA Retiro en ATM_Validar la selección de un retiro en ATM._Reglas de negocio",
+    "paso_prueba": {
+        "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+        "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta."
     }
+  },
+  "file_2": {
+    "id": 214,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 214_Multimoney entregable 5_SA Retiro en ATM_Validar el botón de \"Cerrar\" con icono de X._Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el icono \"X\" de cerrar."
+    }
+  },
+  "file_3": {
+    "id": 215,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 215_Multimoney entregable 5_SA Retiro en ATM_Validar el botón \"Salir\"._Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Salir\"."
+    }
+  },
+  "file_4": {
+    "id": 216,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 216_Multimoney entregable 5_SA Retiro en ATM_Validar el icono \"Compartir\" superior._Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el icono \"Compartir\" superior. Este se encuentra en la esquina superior derecha."
+    }
+  },
+  "file_5": {
+    "id": 217,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 217_Multimoney entregable 5_SA Retiro en ATM_Validar el botón \"Compartir\" inferior._Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Compartir\" inferior. Este se encuentra en al final del formulario."
+    }
+  },
+  "file_6": {
+    "id": 218,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 218_Multimoney entregable 5_SA Retiro en ATM_Validar el etiqueta de concepto para pago_UX (look & feel)",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Validar que el concepto diga \"Retiro en ATM\"."
+    }
+  },
+  "file_7": {
+    "id": 219,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 219_Multimoney entregable 5_SA Retiro en ATM_Validar función del botón \"Solicitar Aclaración\"_Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado."
+    }
+  },
+  "file_8": {
+    "id": 220,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 220_Multimoney entregable 5_SA Retiro en ATM_Validar presentación de \"Pantalla de Aclaración\"._Reglas de negocio",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado."
+    }
+  },
+  "file_9": {
+    "id": 221,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 221_Multimoney entregable 5_SA Retiro en ATM_Validar enlace a Banxico.org_Escenarios Alternos ",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el hipervínculo proporcionado de la página de banxico.org de consulta de estado."
+    }
+  },
+  "file_10": {
+    "id": 222,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 222_Multimoney entregable 5_SA Retiro en ATM_Validar botón \"X\" de la pantalla \"Solicitar Aclaración\"._Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el icono \"X\", que se encuentra en la parte superior izquierda de la pantalla \"Iniciar Aclaración\"."
+    }
+  },
+  "file_11": {
+    "id": 223,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 223_Multimoney entregable 5_SA Retiro en ATM_Validar botón \"Iniciar Proceso\"_Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\"."
+    }
+  },
+  "file_12": {
+    "id": 224,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 224_Multimoney entregable 5_SA Retiro en ATM_Validar opciones de la pregunta \"Motivo de la aclaración\"._Happy path",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Seleccionar una respuesta en base a la pregunta \"¿Cuál es el motivo de tu aclaración?\"."
+    }
+  },
+  "file_13": {
+    "id": 225,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 225_Multimoney entregable 5_SA Retiro en ATM_Validar que se puede escribir en el campo de texto \"Cuéntanos Más\"._Happy path",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Escribir en el cuadro de texto \"Cuéntanos más\"."
+    }
+  },
+  "file_14": {
+    "id": 226,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 226_Multimoney entregable 5_SA Retiro en ATM_Validar que no se pueda escribir más caracteres de lo establecido_Validación y edición de campos",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Intentar escribir más de X caracteres en el cuadro de texto \"Cuéntanos más\"."
+    }
+  },
+  "file_15": {
+    "id": 227,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 227_Multimoney entregable 5_SA Retiro en ATM_Validar que aparezca la pantalla de procesado._UX (look & feel)",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\"."
+    }
+  },
+  "file_16": {
+    "id": 228,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 228_Multimoney entregable 5_SA Retiro en ATM_Validar el valor por defecto de los radio buttons en la pregunta \"El monto varía del autorizado?\"_Validación y edición de campos",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\".",
+      "paso_7": "Observar la pregunta que se le hace al usuario dentro de esta pantalla."
+    }
+  },
+  "file_17": {
+    "id": 229,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 229_Multimoney entregable 5_SA Retiro en ATM_Validar el botón de continuar en la pregunta \"El monto varía del autorizado?\"_Happy path",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\".",
+      "paso_7": "Responder la pregunta de la 2° pantalla de preguntas (\"¿El monto varía del autorizado? Sí o No\").",
+      "paso_8": "Presionar el botón de continuar."
+    }
+  },
+  "file_18": {
+    "id": 230,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 230_Multimoney entregable 5_SA Retiro en ATM_Validar responder la pregunta 3 (\"¿El monto varía del Autorizado? Si o No\"; y \"¿Recibiste ayudo de alguien más? Si o No\")._Happy path",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\".",
+      "paso_7": "Responder la pregunta de la 2° pantalla de preguntas (\"¿El monto varía del autorizado? Sí o No\").",
+      "paso_8": "Presionar el botón de continuar.",
+      "paso_9": "Responder la pregunta 3 (\"¿El monto varía del Autorizado? Sí o No\" y \"¿Recibiste ayuda de alguien más? Sí o No\").",
+      "paso_10": "Presionar el botón de continuar."
+    }
+  },
+  "file_19": {
+    "id": 231,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 231_Multimoney entregable 5_SA Retiro en ATM_Validar correo electrónico válido_Happy path",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\" (1° pantalla de preguntas).",
+      "paso_7": "Responder la pregunta de la 2° pantalla de preguntas (\"¿El monto varía del autorizado? Sí o No\").",
+      "paso_8": "Presionar el botón de continuar.",
+      "paso_9": "Responder la pregunta 3 (\"¿El monto varía del Autorizado? Sí o No\" y \"¿Recibiste ayuda de alguien más? Sí o No\").",
+      "paso_10": "Presionar el botón de continuar.",
+      "paso_11": "Ingresar el correo electrónico.",
+      "paso_12": "Presionar el botón continuar."
+    }
+  },
+  "file_20": {
+    "id": 232,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 232_Multimoney entregable 5_SA Retiro en ATM_Validar correo electrónico vacío_Validación y edición de campos",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\" (1° pantalla de preguntas).",
+      "paso_7": "Responder la pregunta de la 2° pantalla de preguntas (\"¿El monto varía del autorizado? Sí o No\").",
+      "paso_8": "Presionar el botón de continuar.",
+      "paso_9": "Responder la pregunta 3 (\"¿El monto varía del Autorizado? Sí o No\" y \"¿Recibiste ayuda de alguien más? Sí o No\").",
+      "paso_10": "Presionar el botón continuar.",
+      "paso_11": "Presionar el botón continuar nuevamente."
+    }
+  },
+  "file_21": {
+    "id": 233,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 233_Multimoney entregable 5_SA Retiro en ATM_Validar correo electrónico inválido_Validación y edición de campos",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\" (1° pantalla de preguntas).",
+      "paso_7": "Responder la pregunta de la 2° pantalla de preguntas (\"¿El monto varía del autorizado? Sí o No\").",
+      "paso_8": "Presionar el botón de continuar.",
+      "paso_9": "Responder la pregunta 3 (\"¿El monto varía del Autorizado? Sí o No\" y \"¿Recibiste ayuda de alguien más? Sí o No\").",
+      "paso_10": "Presionar el botón continuar.",
+      "paso_11": "Ingresar el correo electrónico con formato válido.",
+      "paso_12": "Presionar el botón continuar."
+    }
+  },
+  "file_22": {
+    "id": 234,
+    "platform": "ios",
+    "title": "SA Retiro en ATM - 234_Multimoney entregable 5_SA Retiro en ATM_Validar información capturada en las pantallas de la Solicitud de Aclaración._Happy path",
+    "paso_prueba": {
+      "paso_1": "Seleccionar en la pantalla inicio el botón \"Tarjeta\".",
+      "paso_2": "Seleccionar un retiro ATM realizado en la pantalla de tarjeta.",
+      "paso_3": "Presionar el botón \"Solicitar Aclaración\".",
+      "paso_4": "Validar que se presente la pantalla de \"Aclaración de Retiro en ATM\" en el formato esperado.",
+      "paso_5": "Presionar el botón \"Iniciar Proceso\".",
+      "paso_6": "Continuar el formulario de preguntas después de haber respondido a las preguntas \"¿Cuál es el motivo de tu aclaración?\" y \"Cuéntanos Más\" (1° pantalla de preguntas).",
+      "paso_7": "Responder la pregunta de la 2° pantalla de preguntas (\"¿El monto varía del autorizado? Sí o No\").",
+      "paso_8": "Presionar el botón de continuar.",
+      "paso_9": "Responder la pregunta 3 (\"¿El monto varía del Autorizado? Sí o No\" y \"¿Recibiste ayuda de alguien más? Sí o No\").",
+      "paso_10": "Presionar el botón continuar.",
+      "paso_11": "Ingresar el correo electrónico con formato válido.",
+      "paso_12": "Presionar el botón continuar.",
+      "paso_13": "Validar que el formato de la pantalla sea correcto.",
+      "paso_14": "Validar que los datos capturados coincidan con los insertados en las pantallas anteriores."
+    }
+  },
+  "file_23": {
+    "id": 235,
+    "platform": "ios",
+    "title": "Retiro ATM - 235_Multimoney entregable 5_Retiro ATM_Validar el acceso a los servicios de ubicación._UX (look & feel)",
+    "paso_prueba": {
+      "paso_1": "Estar en el menú principal.",
+      "paso_2": "Seleccionar \"Retiro ATM\".",
+      "paso_3": "Visualizar el pop-up de \"permitir acceso a la ubicación\".",
+      "paso_4": "Seleccionar \"Aceptar / Permitir\"."
+    }
+  },
+  "file_24": {
+    "id": 236,
+    "platform": "ios",
+    "title": "Retiro ATM - 236_Multimoney entregable 5_Retiro ATM_Validar el acceso a los servicios de ubicación._Botones y controles",
+    "paso_prueba": {
+      "paso_1": "Estar en menú principal.",
+      "paso_2": "Seleccionar \"Retiro ATM\".",
+      "paso_3": "Visualizar el pop-up de \"permitir acceso a la ubicación\".",
+      "paso_4": "Seleccionar \"Cancelar\"."
+    }
+  }
 }
+
