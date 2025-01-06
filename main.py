@@ -5,15 +5,24 @@ from docxtpl import DocxTemplate
 from src.utils import load_json, clean_filename, separar_pasos
 
 def main():
+    guardar_evidencias(range(12, 20), "android")
+    guardar_evidencias(range(155, 160), "ios")
+
+def guardar_evidencias(rango, subcarpeta):
     # Cargar los datos desde el JSON
     #data = load_json("config/data.json")
     
     #Especificar la ruta de la carpeta donde se guardarán los archivos
-    output_folder = "C:\\Users\\JuanNav\\OneDrive - Money Free Flex\\Documentos\\Money Free Flex\\Pruebas\\entregable 6\\ios"
+    output_folder = "C:\\Users\\JuanNav\OneDrive - Money Free Flex\\Documentos\\Money Free Flex\\Pruebas"
 
     # Crear la carpeta si no existe
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
+    
+    # Crear la subcarpeta si no existe
+    subcarpeta_path = os.path.join(output_folder, subcarpeta)
+    if not os.path.exists(subcarpeta_path):
+        os.makedirs(subcarpeta_path)
     
     fe = Funexcel()
     #Ruta donde se encuentra el excel
@@ -31,7 +40,7 @@ def main():
 
     # Iterar sobre las claves del JSON para agregar dinámicamente las secciones file_*
     
-    for fcaso in range(155, 179):
+    for fcaso in rango:
         id = fe.read_data(ruta, sheetName, fcaso, col_id)
         plat = fe.read_data(ruta, sheetName, fcaso, col_plat)
         modulo = fe.read_data(ruta, sheetName, fcaso, col_modulo)
@@ -64,7 +73,7 @@ def main():
         
         # Limpiar el nombre del archivo
         clean_title = clean_filename(f"FormatoDeEvidencia_CP_{id_t}_{plat.lower()}")
-        output_filename = os.path.join(output_folder,f"{clean_title}.docx")
+        output_filename = os.path.join(subcarpeta_path,f"{clean_title}.docx")
         
         # Guardar el archivo con el nombre correspondiente
         file.save(output_filename)
