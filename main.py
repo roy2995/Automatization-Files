@@ -9,7 +9,7 @@ def main():
     #data = load_json("config/data.json")
     
     #Especificar la ruta de la carpeta donde se guardarán los archivos
-    output_folder = "C:\\Users\\JuanNav\\OneDrive - Money Free Flex\\Documentos\\Money Free Flex\\Pruebas\\entregable 6\\android"
+    output_folder = "C:\\Users\\JuanNav\\OneDrive - Money Free Flex\\Documentos\\Money Free Flex\\Pruebas\\entregable 6\\ios"
 
     # Crear la carpeta si no existe
     if not os.path.exists(output_folder):
@@ -31,7 +31,7 @@ def main():
 
     # Iterar sobre las claves del JSON para agregar dinámicamente las secciones file_*
     
-    for fcaso in range(12, 36):
+    for fcaso in range(155, 179):
         id = fe.read_data(ruta, sheetName, fcaso, col_id)
         plat = fe.read_data(ruta, sheetName, fcaso, col_plat)
         modulo = fe.read_data(ruta, sheetName, fcaso, col_modulo)
